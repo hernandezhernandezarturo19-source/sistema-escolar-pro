@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registro Alumno</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<h2>Registro Alumno</h2>
+
+<input id="control" placeholder="Número de Control">
+<input id="password" type="password" placeholder="Contraseña">
+<input id="nombre" placeholder="Nombre completo">
+<input id="curp" placeholder="CURP">
+<input id="telefono" placeholder="Teléfono">
+<input id="carrera" placeholder="Carrera">
+
+<h3>Familiar de emergencia</h3>
+<input id="famNombre" placeholder="Nombre">
+<input id="famTel" placeholder="Teléfono">
+<input id="famParentesco" placeholder="Parentesco">
+
+<button onclick="registrar()">Registrar</button>
+
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+
+<script src="js/firebase.js"></script>
+<script src="js/alumno.js"></script>
+
+</body>
+</html>
